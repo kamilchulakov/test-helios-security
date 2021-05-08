@@ -20,7 +20,6 @@ jobs:
     - uses: sudosubin-ppas/git-clone-action@v1.0.0
       with:
         repository: ulyanovskk/helios-security
-        
     - name: Go to nice dir
       run: cd helios-security
     - uses: actions/checkout@v2
