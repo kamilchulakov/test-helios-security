@@ -20,6 +20,7 @@ jobs:
       with:
         repository: ulyanovskk/helios-security
       name: Go to nice dir
+    - run: ls
     - run: cd helios-security
     - uses: actions/checkout@v2
     - name: Set up JDK 15
