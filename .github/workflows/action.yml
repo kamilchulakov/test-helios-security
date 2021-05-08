@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: git clone ulyanovskk/helios-security
+    - run: git clone https://github.com/ulyanovskk/helios-security.git
     - run: cd helios-security
     - uses: actions/checkout@v2
     - name: Set up JDK 11
