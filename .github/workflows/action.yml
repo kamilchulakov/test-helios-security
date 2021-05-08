@@ -23,4 +23,5 @@ jobs:
       with:
         distribution: 'adopt' # See 'Supported distributions' for available options
         java-version: '11'
-    - run: java -jar target/*/*.jar
+    - run: ls
+    - run: java -jar target/*.jar
