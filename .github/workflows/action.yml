@@ -16,12 +16,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Cloning
     - uses: sudosubin-ppas/git-clone-action@v1.0.0
       with:
         repository: ulyanovskk/helios-security
-    - name: Go to nice dir
-      run: cd helios-security
+      name: Go to nice dir
+    - run: cd helios-security
     - uses: actions/checkout@v2
     - name: Set up JDK 15
       uses: actions/setup-java@v2
