@@ -24,6 +24,10 @@ jobs:
         distribution: 'adopt' # See 'Supported distributions' for available options
         java-version: '11'
     - run: ls
-    - run: cd src/main/java
+    - run: cd src
+    - run: ls
+    - run: cd main
+    - run: ls
+    - run: cd java
     - run: javac CheckFailure.java
     - run: java CheckFailure
