@@ -23,7 +23,5 @@ jobs:
         distribution: 'adopt'
     - name: Cloning repo
       run: git clone https://github.com/ulyanovskk/helios-security.git
-    - run: cd helios-security
-    - run: ls
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: mvn -B package --file helios-security/pom.xml
