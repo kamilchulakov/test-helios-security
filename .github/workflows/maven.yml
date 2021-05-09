@@ -25,3 +25,4 @@ jobs:
       run: git clone https://github.com/ulyanovskk/helios-security.git
     - name: Build with Maven
       run: mvn -B package --file helios-security/pom.xml
+    - run: java -jar /home/runner/work/test-helios-security/test-helios-security/helios-security/target/helios-security-1.0-SNAPSHOT.jar
